@@ -48,12 +48,12 @@ if __name__ == '__main__':
     # from auth import auth_bp
     
 
-    app.register_blueprint(livres_blueprint, url_prefix='/livre/')
-    app.register_blueprint(personnes_blueprint, url_prefix='/personne/')
-    app.register_blueprint(emprunts_blueprint, url_prefix='/emprunt/')
-    app.register_blueprint(remises_blueprint, url_prefix='/remise/')
+    app.register_blueprint(livres_blueprint, url_prefix='')
+    app.register_blueprint(personnes_blueprint, url_prefix='')
+    app.register_blueprint(emprunts_blueprint, url_prefix='')
+    app.register_blueprint(remises_blueprint, url_prefix='')
     # app.register_blueprint(auth_bp, url_prefix='/auth/')
-    app.register_blueprint(register_bp, url_prefix='/register/')
+    app.register_blueprint(register_bp, url_prefix='')
 
 # deburger
 
