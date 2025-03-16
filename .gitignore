@@ -5,9 +5,12 @@ __pycache__/
 
 # C extensions
 *.so
+*txt
+
 # pyenv
 .python-version
 
 # Environments
 .env
 .venv
+.vscode
